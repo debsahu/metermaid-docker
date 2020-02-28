@@ -1,4 +1,4 @@
-From centos:latest
+From centos:7
 RUN yum -y update
 RUN yum -y install wget vim tar epel-release git nc tee tree && yum -y install rtl-sdr python34 python34-mysql python34-pip
 RUN wget https://dl.google.com/go/go1.10.1.linux-amd64.tar.gz
